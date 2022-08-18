@@ -2,4 +2,4 @@
 exec xbps-install -Syu \
 -u xbps \
 -Syu \
-gimp alacritty dmenu picom neofetch feh pywal vim libXinerama-devel libXft-devel
+base-devel pipewire alsa-pipewire libjack-pipewire gimp alacritty dmenu picom neofetch feh pywal vim libXinerama-devel libXft-devel
