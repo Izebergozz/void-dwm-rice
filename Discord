@@ -1,0 +1,15 @@
+git clone https://github.com/void-linux/void-packages
+
+cd void-packages
+
+./xbps-src binary-bootstrap
+
+echo XBPS_ALLOW_RESTRICTED=yes > etc/conf
+
+./xbps-src pkg discord
+
+xbps-install xtools
+
+cd void-packages/masterdir
+
+xi discord
