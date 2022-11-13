@@ -22,6 +22,8 @@ static char *colors[][3] = {
        [SchemeSel]  = { col_1_fg,    col_1_bg,    col_1_br },
 };
 
+#include <X11/XF86keysym.h>
+
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
@@ -62,7 +64,8 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb",col_2_bg, "-nf",col_2_fg, "-sb",col_1_bg, "-sf",col_1_fg, NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
-
+static const char *brupcmd[] = { "brightnessctl", "set", "10%+", NULL }
+static const char *brdowncmd[] = { "brightnessctl", "set", "10%-", NULL }
 /*
 * Xresources preferences to load at startup
 */
@@ -133,6 +136,8 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_r,      quit,           {0} },
+	{ 0, XF86XK_MonBrightnessUp, spawn,		{.v = brupcmd } },
+	{ 0, XF86XK_MonBrightnessDown, spawn,		{.v = brdowncmd }},
 };
 
 /* button definitions */
