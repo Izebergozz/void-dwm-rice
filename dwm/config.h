@@ -64,8 +64,8 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb",col_2_bg, "-nf",col_2_fg, "-sb",col_1_bg, "-sf",col_1_fg, NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
-static const char *brupcmd[] = { "brightnessctl", "set", "10%+", NULL }
-static const char *brdowncmd[] = { "brightnessctl", "set", "10%-", NULL }
+static const char *brupcmd[] = { "brightnessctl", "set", "10%+", NULL };
+static const char *brdowncmd[] = { "brightnessctl", "set", "10%-", NULL };
 /*
 * Xresources preferences to load at startup
 */
