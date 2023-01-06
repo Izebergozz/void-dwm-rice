@@ -7,6 +7,7 @@ setxkbmap -layout "us,ru" -option "grp:alt_shift_toggle"
 /usr/bin/wireplumber &
 
 wal -R
-feh --bg-scale ~/.cache/wallpapers/orange-forest.png
+feh --bg-scale ~/.cache/wallpapers/building.png
+/home/izebergozz/.local/src/dwmscripts/dwmbar &
 
 exec dwm
