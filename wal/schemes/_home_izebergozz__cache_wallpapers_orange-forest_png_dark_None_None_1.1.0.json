@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/izebergozz/.cache/wallpapers/orange-forest.png",
+    "alpha": "100",
+    "special": {
+        "background": "#130c07",
+        "foreground": "#c3cdcb",
+        "cursor": "#c3cdcb"
+    },
+    "colors": {
+        "color0": "#130c07",
+        "color1": "#4EB9BC",
+        "color2": "#69BBBC",
+        "color3": "#24BEC1",
+        "color4": "#66BEC1",
+        "color5": "#54C2C5",
+        "color6": "#70C5C7",
+        "color7": "#c3cdcb",
+        "color8": "#888f8e",
+        "color9": "#4EB9BC",
+        "color10": "#69BBBC",
+        "color11": "#24BEC1",
+        "color12": "#66BEC1",
+        "color13": "#54C2C5",
+        "color14": "#70C5C7",
+        "color15": "#c3cdcb"
+    }
+}

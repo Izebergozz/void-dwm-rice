@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/izebergozz/.cache/wallpapers/galaxy.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1F2F",
+        "foreground": "#7dcbe7",
+        "cursor": "#7dcbe7"
+    },
+    "colors": {
+        "color0": "#0E1F2F",
+        "color1": "#B34C4D",
+        "color2": "#DF5952",
+        "color3": "#E94647",
+        "color4": "#B2856D",
+        "color5": "#F09F76",
+        "color6": "#057890",
+        "color7": "#7dcbe7",
+        "color8": "#578ea1",
+        "color9": "#B34C4D",
+        "color10": "#DF5952",
+        "color11": "#E94647",
+        "color12": "#B2856D",
+        "color13": "#F09F76",
+        "color14": "#057890",
+        "color15": "#7dcbe7"
+    }
+}

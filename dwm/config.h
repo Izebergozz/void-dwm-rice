@@ -9,12 +9,12 @@ static int topbar                   = 1;
 static const int focusonwheel       = 0;
 static const char *fonts[]          = { "JetBrainsMono:size=15" };
 static const char dmenufont[]       = "JetBrainsMono:size=15";
-static char col_1_bg[]              = "#101218"; 
-static char col_1_fg[]              = "#a5ccec"; 
-static char col_1_br[]              = "#738ea5"; 
-static char col_2_bg[]              = "#e3be79"; 
-static char col_2_fg[]              = "#a5ccec"; 
-static char col_2_br[]              = "#a5ccec";
+static char col_1_bg[]              = "#0c0c0c"; 
+static char col_1_fg[]              = "#d8d8d5"; 
+static char col_1_br[]              = "#979795"; 
+static char col_2_bg[]              = "#956a50"; 
+static char col_2_fg[]              = "#d8d8d5"; 
+static char col_2_br[]              = "#d8d8d5";
 
 static char *colors[][3] = {
        /*               fg           bg           border   */ 
@@ -137,7 +137,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_r,      quit,           {0} },
 	{ 0, XF86XK_MonBrightnessUp, spawn,		{.v = brupcmd } },
-	{ 0, XF86XK_MonBrightnessDown, spawn,		{.v = brdowncmd }},
+	{ 0, XF86XK_MonBrightnessDown, spawn,		{.v = brdowncmd } },
 };
 
 /* button definitions */

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/izebergozz/.cache/wallpapers/mountains.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f100d",
+        "foreground": "#c4d1e5",
+        "cursor": "#c4d1e5"
+    },
+    "colors": {
+        "color0": "#0f100d",
+        "color1": "#8D9726",
+        "color2": "#99975D",
+        "color3": "#C4AF4F",
+        "color4": "#69738E",
+        "color5": "#769ACA",
+        "color6": "#ABAFBB",
+        "color7": "#c4d1e5",
+        "color8": "#8992a0",
+        "color9": "#8D9726",
+        "color10": "#99975D",
+        "color11": "#C4AF4F",
+        "color12": "#69738E",
+        "color13": "#769ACA",
+        "color14": "#ABAFBB",
+        "color15": "#c4d1e5"
+    }
+}

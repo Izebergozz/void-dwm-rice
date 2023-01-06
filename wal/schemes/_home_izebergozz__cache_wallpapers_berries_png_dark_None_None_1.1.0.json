@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/izebergozz/.cache/wallpapers/berries.png",
+    "alpha": "100",
+    "special": {
+        "background": "#18111e",
+        "foreground": "#f0efe0",
+        "cursor": "#f0efe0"
+    },
+    "colors": {
+        "color0": "#18111e",
+        "color1": "#877F7F",
+        "color2": "#8C847D",
+        "color3": "#A49F92",
+        "color4": "#C8B4A2",
+        "color5": "#D2CFB5",
+        "color6": "#DEDCC3",
+        "color7": "#f0efe0",
+        "color8": "#a8a79c",
+        "color9": "#877F7F",
+        "color10": "#8C847D",
+        "color11": "#A49F92",
+        "color12": "#C8B4A2",
+        "color13": "#D2CFB5",
+        "color14": "#DEDCC3",
+        "color15": "#f0efe0"
+    }
+}

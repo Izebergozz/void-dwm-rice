@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/izebergozz/.cache/wallpapers/mic.png",
+    "alpha": "100",
+    "special": {
+        "background": "#060804",
+        "foreground": "#d9d6cc",
+        "cursor": "#d9d6cc"
+    },
+    "colors": {
+        "color0": "#060804",
+        "color1": "#5F6B59",
+        "color2": "#6A6E54",
+        "color3": "#7D816B",
+        "color4": "#9D936E",
+        "color5": "#C6B279",
+        "color6": "#CBB692",
+        "color7": "#d9d6cc",
+        "color8": "#97958e",
+        "color9": "#5F6B59",
+        "color10": "#6A6E54",
+        "color11": "#7D816B",
+        "color12": "#9D936E",
+        "color13": "#C6B279",
+        "color14": "#CBB692",
+        "color15": "#d9d6cc"
+    }
+}

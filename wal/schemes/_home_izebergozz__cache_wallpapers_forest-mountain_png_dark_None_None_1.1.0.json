@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/izebergozz/.cache/wallpapers/forest-mountain.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0A08",
+        "foreground": "#aadbf5",
+        "cursor": "#aadbf5"
+    },
+    "colors": {
+        "color0": "#0B0A08",
+        "color1": "#0B569C",
+        "color2": "#556A9D",
+        "color3": "#066EDB",
+        "color4": "#638BAF",
+        "color5": "#2395EB",
+        "color6": "#55ADE7",
+        "color7": "#aadbf5",
+        "color8": "#7699ab",
+        "color9": "#0B569C",
+        "color10": "#556A9D",
+        "color11": "#066EDB",
+        "color12": "#638BAF",
+        "color13": "#2395EB",
+        "color14": "#55ADE7",
+        "color15": "#aadbf5"
+    }
+}

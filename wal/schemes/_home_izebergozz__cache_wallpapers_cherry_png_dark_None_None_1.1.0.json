@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/izebergozz/.cache/wallpapers/cherry.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0b05",
+        "foreground": "#cfbdc8",
+        "cursor": "#cfbdc8"
+    },
+    "colors": {
+        "color0": "#0e0b05",
+        "color1": "#745263",
+        "color2": "#885851",
+        "color3": "#895F73",
+        "color4": "#9D8C64",
+        "color5": "#9E6E90",
+        "color6": "#C27AB1",
+        "color7": "#cfbdc8",
+        "color8": "#90848c",
+        "color9": "#745263",
+        "color10": "#885851",
+        "color11": "#895F73",
+        "color12": "#9D8C64",
+        "color13": "#9E6E90",
+        "color14": "#C27AB1",
+        "color15": "#cfbdc8"
+    }
+}

@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#while true; do
+#
+#	dwmupdates > /home/izebergozz/.local/src/dwmscripts/dwmupdates.txt
+#
+#	sleep 3600s
+#
+#done &
+
+while true; do
+
+	CPU=$(/home/izebergozz/.local/src/dwmscripts/dwmcpu)
+	MEM=$(/home/izebergozz/.local/src/dwmscripts/dwmmemory)
+	NET=$(/home/izebergozz/.local/src/dwmscripts/dwmnet)
+	TEMP=$(/home/izebergozz/.local/src/dwmscripts/dwmtemp)
+	HDD=$(/home/izebergozz/.local/src/dwmscripts/dwmdisk)
+#	UPDATES=$(< /home/izebergozz/.local/src/dwmscripts/dwmupdates.txt)
+#	BATT=$(/home/izebergozz/.local/src/dwmscripts/dwmbatt)
+	TIME=$(/home/izebergozz/.local/src/dwmscripts/dwmclock)
+	xsetroot -name "| $CPU | $MEM | $NET | $TEMP | $HDD | $TIME"
+
+	sleep 5s
+	
+done &

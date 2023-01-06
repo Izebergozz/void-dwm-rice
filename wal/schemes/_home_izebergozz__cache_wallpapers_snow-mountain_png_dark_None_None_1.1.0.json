@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/izebergozz/.cache/wallpapers/snow-mountain.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1f1e22",
+        "foreground": "#ded4dc",
+        "cursor": "#ded4dc"
+    },
+    "colors": {
+        "color0": "#1f1e22",
+        "color1": "#AC99A8",
+        "color2": "#B7A4B5",
+        "color3": "#C9979C",
+        "color4": "#CC9EA8",
+        "color5": "#D2A5AD",
+        "color6": "#E8A9A7",
+        "color7": "#ded4dc",
+        "color8": "#9b949a",
+        "color9": "#AC99A8",
+        "color10": "#B7A4B5",
+        "color11": "#C9979C",
+        "color12": "#CC9EA8",
+        "color13": "#D2A5AD",
+        "color14": "#E8A9A7",
+        "color15": "#ded4dc"
+    }
+}

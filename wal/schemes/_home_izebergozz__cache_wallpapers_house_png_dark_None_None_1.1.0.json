@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/izebergozz/.cache/wallpapers/house.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0a06",
+        "foreground": "#c0c8c9",
+        "cursor": "#c0c8c9"
+    },
+    "colors": {
+        "color0": "#0a0a06",
+        "color1": "#B78A65",
+        "color2": "#236E95",
+        "color3": "#5E778C",
+        "color4": "#218AB6",
+        "color5": "#6498AE",
+        "color6": "#459BC3",
+        "color7": "#c0c8c9",
+        "color8": "#868c8c",
+        "color9": "#B78A65",
+        "color10": "#236E95",
+        "color11": "#5E778C",
+        "color12": "#218AB6",
+        "color13": "#6498AE",
+        "color14": "#459BC3",
+        "color15": "#c0c8c9"
+    }
+}

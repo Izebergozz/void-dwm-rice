@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/izebergozz/.cache/wallpapers/building.png"
+let background = "#0c0c0c"
+let foreground = "#d8d8d5"
+let cursor     = "#d8d8d5"
+
+" Colors
+let color0  = "#0c0c0c"
+let color1  = "#8C5837"
+let color2  = "#956A50"
+let color3  = "#798181"
+let color4  = "#8F9C9D"
+let color5  = "#98A4A4"
+let color6  = "#B2B6B1"
+let color7  = "#d8d8d5"
+let color8  = "#979795"
+let color9  = "#8C5837"
+let color10 = "#956A50"
+let color11 = "#798181"
+let color12 = "#8F9C9D"
+let color13 = "#98A4A4"
+let color14 = "#B2B6B1"
+let color15 = "#d8d8d5"

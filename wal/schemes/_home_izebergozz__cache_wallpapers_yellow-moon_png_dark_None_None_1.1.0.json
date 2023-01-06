@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/izebergozz/.cache/wallpapers/yellow-moon.png",
+    "alpha": "100",
+    "special": {
+        "background": "#03101C",
+        "foreground": "#f5dd9c",
+        "cursor": "#f5dd9c"
+    },
+    "colors": {
+        "color0": "#03101C",
+        "color1": "#A77B5A",
+        "color2": "#EE9D35",
+        "color3": "#FAB036",
+        "color4": "#FDC833",
+        "color5": "#AC8F5D",
+        "color6": "#EAA24D",
+        "color7": "#f5dd9c",
+        "color8": "#ab9a6d",
+        "color9": "#A77B5A",
+        "color10": "#EE9D35",
+        "color11": "#FAB036",
+        "color12": "#FDC833",
+        "color13": "#AC8F5D",
+        "color14": "#EAA24D",
+        "color15": "#f5dd9c"
+    }
+}
