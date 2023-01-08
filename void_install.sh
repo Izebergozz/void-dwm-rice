@@ -75,9 +75,6 @@ cp /proc/mounts /etc/fstab
 nano /etc/fstab
 
 # GRUB-INSTALL #
-
-xbps-install grub
-grub-install $drive
 xbps-install grub-x86_64-efi
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id="Void"
 
