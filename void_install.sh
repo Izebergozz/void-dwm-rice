@@ -20,13 +20,18 @@ mkfs.ext4 $partition
 echo "Enter EFI partition: "
 read efipartition
 mkfs.vfat -F 32 $efipartition
-mkdir -p /mnt/boot/efi
+mount $partition /mnt/
+mkdir -p /mnt/boot/efi/
 mount $efipartition /mnt/boot/efi/
-
-mount $partition /mnt
 
 # XBPS #
 printf '\033c'
+#echo "glibc, musl or aarch64"
+#read REPO
+#echo "i686 or x86_64?"
+#read ARCH
+REPO=https://repo-default.voidlinux.org/current
+ARCH=x86_64
 mkdir -p /mnt/var/db/xbps/keys
 cp /var/db/xbps/keys/* /mnt/var/db/xbps/keys/
 XBPS_ARCH=$ARCH xbps-install -S -r /mnt -R "$REPO" base-system
@@ -60,10 +65,11 @@ echo "127.0.0.1       localhost" >> /etc/hosts
 echo "::1             localhost" >> /etc/hosts
 echo "127.0.1.1       $hostname.localdomain $hostname" >> /etc/hosts
 passwd
-xbps-install -Su xbps
-xbps-install -u
-xbps-install base-system
-xbps-remove base-voidstrap
+#xbps-install -Su xbps
+#xbps-install -u
+#xbps-install base-system
+#xbps-remove base-voidstrap
+nano /etc/default/libc-locales
 xbps-reconfigure -f glibc-locales
 cp /proc/mounts /etc/fstab
 nano /etc/fstab
