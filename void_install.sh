@@ -27,22 +27,23 @@ if [[ $answer = y]] ; then
 fi
 mount $partition /mnt
 
-# 
+# XBPS #
+printf '\033c'
 mkdir -p /mnt/var/db/xbps/keys
 cp /var/db/xbps/keys/* /mnt/var/db/xbps/keys/
 XBPS_ARCH=$ARCH xbps-install -S -r /mnt -R "$REPO" base-system
 
-# CHROOT
+# CHROOT #
+printf '\033c'
 mount --rbind /sys /mnt/sys && mount --make-rslave /mnt/sys
 mount --rbind /dev /mnt/dev && mount --make-rslave /mnt/dev
 mount --rbind /proc /mnt/proc && mount --make-rslave /mnt/proc
- cp /etc/resolv.conf /mnt/etc/
+cp /etc/resolv.conf /mnt/etc/
 PS-1='(chroot) # ' chroot /mnt/ /bin/bash
 
 # INSTALL BASE-SYSTEM #
-
 printf '\033c'
-ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+ln -sf /usr/share/zoneinfo/Asia/Barnaul /etc/localtime
 hwclock --systohc
 echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
 locale-gen
