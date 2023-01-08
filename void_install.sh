@@ -1,13 +1,13 @@
 # == VOID SETUP INSTALLER == #
 # PRECONF 
- printf '\033c'
+printf '\033c'
 echo "Welcome to my void installer script"
 
 #sed -i "s/^#ParallelDownloads = 5$/Parallelownloads = 15/" /etc/pacman.conf
 
 #pacman --noconfirm -Sy archlinux-keyring
 loadkeys us
-timedatectl set-ntp true
+#timedatectl set-ntp true
 lsblk
 
 # PARTITION
@@ -15,10 +15,10 @@ echo "Enter the drive:"
 read drive
 cfdisk $drive
 echo "Enter the root partition:"
-reaf partition 
-mkdf.ext4 $partition
+read partition 
+mkfs.ext4 $partition
 read -p "Did you also create efi partition? [y/n]" answer
-if [[ $answer = y]] ; then
+if [[ $answer = y]] then
 	echo "Enter EFI partition: "
 	read efipartition
 	mkfs.vfat -F 32 $efipartition
