@@ -71,6 +71,10 @@ grub-install $drive
 xbps-install grub-x86_64-efi
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id="Void"
 
+# POST-INSTALATION #
+xbps-install -Syu base-devel brightnessctl pipewire alsa-pipewire libjack-pipewire wireplumber gimp alacritty dmenu picom \
+neofetch feh pywal neovim libXinerama-devel libXft-devel xsetroot lm_sensors nerd-fonts-ttf \
+
 # FINALIZATION #
 
 xbps-reconfigure -fa
