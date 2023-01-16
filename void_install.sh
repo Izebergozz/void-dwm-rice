@@ -3,12 +3,7 @@
 # PRECONF 
 printf '\033c'
 echo "Welcome to my void installer script"
-
-#sed -i "s/^#ParallelDownloads = 5$/Parallelownloads = 15/" /etc/pacman.conf
-
-#pacman --noconfirm -Sy archlinux-keyring
 loadkeys us
-#timedatectl set-ntp true
 lsblk
 
 # PARTITION
@@ -51,7 +46,7 @@ cp /etc/resolv.conf /mnt/etc/
 
 sed '1,/^#part2$/d' `basename $0` > /mnt/void_install2.sh
 chmod +x /mnt/void_install2.sh
-PS1='(chroot) # ' chroot /mnt/ /bin/bash ./void_install2.sh
+PS1='(chroot) # ' chroot /mnt/ /bin/bash
 exit 
 
 #part2
