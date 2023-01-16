@@ -34,11 +34,10 @@ XBPS_ARCH=$ARCH xbps-install -S -r /mnt -R "$REPO" base-system
 
 # CHROOT #
 printf '\033c'
-cd /mnt
-mkdir sys
-mkdir dev
-mkdir proc 
-mkdir etc
+mkdir /mnt/sys
+mkdir /mnt/dev
+mkdir /mnt/proc 
+mkdir /mnt/etc
 mount --rbind /sys /mnt/sys && mount --make-rslave /mnt/sys
 mount --rbind /dev /mnt/dev && mount --make-rslave /mnt/dev
 mount --rbind /proc /mnt/proc && mount --make-rslave /mnt/proc
