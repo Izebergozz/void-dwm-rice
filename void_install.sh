@@ -1,4 +1,5 @@
 # == VOID SETUP INSTALLER == #
+#part1
 # PRECONF 
 printf '\033c'
 echo "Welcome to my void installer script"
@@ -47,8 +48,13 @@ mount --rbind /sys /mnt/sys && mount --make-rslave /mnt/sys
 mount --rbind /dev /mnt/dev && mount --make-rslave /mnt/dev
 mount --rbind /proc /mnt/proc && mount --make-rslave /mnt/proc
 cp /etc/resolv.conf /mnt/etc/
-PS1='(chroot) # ' chroot /mnt/ /bin/bash
 
+sed '1,/^#part2$/d' `basename $0` > /mnt/void_install2.sh
+chmod +x /mnt/void_install2.sh
+PS1='(chroot) # ' chroot /mnt/ /bin/bash ./void_install2.sh
+exit 
+
+#part2
 # INSTALL BASE-SYSTEM #
 printf '\033c'
 ln -sf /usr/share/zoneinfo/Asia/Barnaul /etc/localtime
