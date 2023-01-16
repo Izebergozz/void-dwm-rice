@@ -75,10 +75,10 @@ passwd
 #xbps-install -u
 #xbps-install base-system
 #xbps-remove base-voidstrap
-nano /etc/default/libc-locales
+vim /etc/default/libc-locales
 xbps-reconfigure -f glibc-locales
 cp /proc/mounts /etc/fstab
-nano /etc/fstab
+vim /etc/fstab
 
 # GRUB-INSTALL #
 xbps-install grub-x86_64-efi
