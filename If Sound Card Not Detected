@@ -2,7 +2,7 @@ If sound driver that running is sof-audio-pci, which didn't work, just disable t
 
 Do:
 
-sudo neovim /etc/default/grub
+sudo nvim /etc/default/grub
 
 Change
 
