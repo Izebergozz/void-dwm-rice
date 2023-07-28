@@ -10,6 +10,6 @@ echo XBPS_ALLOW_RESTRICTED=yes > etc/conf
 
 xbps-install xtools
 
-cd void-packages/masterdir
+cd masterdir
 
 xi discord
