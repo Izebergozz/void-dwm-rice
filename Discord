@@ -8,7 +8,7 @@ echo XBPS_ALLOW_RESTRICTED=yes > etc/conf
 
 ./xbps-src pkg discord
 
-xbps-install xtools
+sudo xbps-install xtools
 
 cd masterdir
 
