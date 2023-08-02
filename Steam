@@ -1,3 +1,5 @@
 sudo xbps-install -S void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree 
 
 sudo xbps-install -S steam mono libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit 
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2110257855 - warframe
